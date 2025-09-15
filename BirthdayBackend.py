@@ -16,7 +16,7 @@ if not os.path.exists(MESSAGES_FILE):
 def serve_preview():
     if session.get("visited"):
         return serve_birthday()
-    return send_from_directory('.', 'previewpage.html')
+    return send_from_directory('.', 'index.html')
 
 @app.route('/birthday.html')
 def serve_birthday():
