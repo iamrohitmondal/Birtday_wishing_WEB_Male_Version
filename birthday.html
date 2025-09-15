@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="static/birthday.css" rel="stylesheet">
   <title>Happy Birthday!</title>
   <style>
-    
+
   </style>
 </head>
 
@@ -30,49 +31,60 @@
 
 
     <div class="grid">
-     
+
       <button onclick="flyBalloons()">
-        <img src="https://i.ibb.co/hJh27fY0/image-removebg-preview.png" alt="image-removebg-preview" alt="Balloons"/><br>Fly Balloons
+        <img src="https://i.ibb.co/hJh27fY0/image-removebg-preview.png" alt="image-removebg-preview"
+          alt="Balloons" /><br>Fly Balloons
       </button>
-       <button onclick="showCake()">
-        <img src="https://i.ibb.co/1tYddmM2/image.png" alt="Cake"/><br>Show Cake
+      <button onclick="showCake()">
+        <img src="https://i.ibb.co/1tYddmM2/image.png" alt="Cake" /><br>Show Cake
       </button>
       <button onclick="lightCandle()">
-        <img src="https://i.ibb.co/xKytfm7Y/image.png" alt="Fire"/><br>Fire Candle
+        <img src="https://i.ibb.co/xKytfm7Y/image.png" alt="Fire" /><br>Fire Candle
       </button>
       <button onclick="celebrateAll()">
-        <img src="https://cdn-icons-png.freepik.com/256/9074/9074446.png?ga=GA1.1.806545514.1745143109" alt="Celebrate"/><br>Celebrate
+        <img src="https://cdn-icons-png.freepik.com/256/9074/9074446.png?ga=GA1.1.806545514.1745143109"
+          alt="Celebrate" /><br>Celebrate
       </button>
       <button onclick="showLetter()">
-        <img src="https://cdn-icons-png.freepik.com/256/18465/18465764.png?ga=GA1.1.806545514.1745143109&semt=ais_hybrid" alt="Letter"/><br>Read Letter
+        <img
+          src="https://cdn-icons-png.freepik.com/256/18465/18465764.png?ga=GA1.1.806545514.1745143109&semt=ais_hybrid"
+          alt="Letter" /><br>Read Letter
       </button>
-         <button onclick="toggleSecretPopup()">
-        <img src="https://cdn-icons-png.freepik.com/256/12237/12237467.png?ga=GA1.1.806545514.1745143109&semt=ais_hybrid" alt="Secret"/><br>Secret Message
-</button>
+      <button onclick="toggleSecretPopup()">
+        <img
+          src="https://cdn-icons-png.freepik.com/256/12237/12237467.png?ga=GA1.1.806545514.1745143109&semt=ais_hybrid"
+          alt="Secret" /><br>Secret Message
+      </button>
     </div>
     <div class="letter-box" id="letterBox">
       <!-- letter box close button -->
-<button onclick="closeLetterBox()" style="padding: 10px 15px; border-radius: 10px; margin-left: 10px;background-color: #cb0606;color:#f3f3f3;font-weight:bold">Close</button>
+      <button onclick="closeLetterBox()"
+        style="padding: 10px 15px; border-radius: 10px; margin-left: 10px;background-color: #cb0606;color:#f3f3f3;font-weight:bold">Close</button>
 
     </div>
-<!-- Hidden Popup Container -->
-<!-- Secret Message Popup -->
+    <!-- Hidden Popup Container -->
+    <!-- Secret Message Popup -->
 
-<div class="secretMsgPopup" id="secretMsgPopup">
-  <h3>Send a Secret Message</h3>
-  <textarea id="secretMessage" rows="5" style="width: 100%;" placeholder="Write your secret message here..."</textarea></textarea></textarea><br><br>
-  <button onclick="sendMessage()" style="padding: 10px 15px; border-radius: 10px; font-weight: bold; background-color: #0ede1f;">Send</button>
-  <button onclick="closePopup()" style="padding: 10px 15px; border-radius: 10px; margin-left: 10px;background-color: #cb0606;color:#f3f3f3;font-style:bold">Close</button>
-  <p id="responseMsg"></p>
-</div>
+    <div class="secretMsgPopup" id="secretMsgPopup">
+      <h3>Send a Secret Message</h3>
+      <textarea id="secretMessage" rows="5" style="width: 100%;" placeholder="Write your secret message here..."
+        </textarea></textarea></textarea><br><br>
+      <button onclick="sendMessage()"
+        style="padding: 10px 15px; border-radius: 10px; font-weight: bold; background-color: #0ede1f;">Send</button>
+      <button onclick="closePopup()"
+        style="padding: 10px 15px; border-radius: 10px; margin-left: 10px;background-color: #cb0606;color:#f3f3f3;font-style:bold">Close</button>
+      <p id="responseMsg"></p>
+    </div>
 
 
-</div>
-    <audio id="birthdayAudio" src="https://media.vocaroo.com/mp3/18hFZBcTRMje" type="audio/mpeg"></audio>
-     <audio id="readletter" src="your_READLETTER.mp3" type="audio/mpeg"></audio> 
-    <audio id="clapSound" src="https://www.soundjay.com/human/applause-01.mp3"></audio>
+  </div>
+  <audio id="birthdayAudio" src="https://media.vocaroo.com/mp3/18hFZBcTRMje" type="audio/mpeg"></audio>
+  <audio id="readletter" src="your_READLETTER.mp3" type="audio/mpeg"></audio>
+  <audio id="clapSound" src="https://www.soundjay.com/human/applause-01.mp3"></audio>
   </div>
 
   <script src="javafiles/birthday.js"> </script>
 </body>
+
 </html>
