@@ -1,7 +1,7 @@
 // Slideshow image logic
 const boyImages = [
-    "photo2.jpg",
-    "photo3.jpg"
+    "https://i.ibb.co/4wj3hGQ5/image.png",
+    "https://i.ibb.co/bRF3YfZR/image.png"
     //add more 
 ];
 
